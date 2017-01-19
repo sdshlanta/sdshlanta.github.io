@@ -1,0 +1,30 @@
+
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>&#9888; TOM ZONE!!! &#9888;</title>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86962110-1', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+ </head>
+ <body onload="setCurTime()" style="background-repeat: repeat; background-image:url(images/tom.gif); background-size:250px">
+  <audio id="Tomsong"  autoplay loop>
+   <source src="song.mp3" type="audio/mpeg">
+  </audio>
+  <script>
+   var vid = document.getElementById("Tomsong");
+   function setCurTime() {
+     vid.currentTime=8;
+   }
+  </script>
+ <!-- thanks to @404maxnotfound for code, gif, song! -->
+ </body>
+</html>
